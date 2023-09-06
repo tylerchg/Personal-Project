@@ -1,3 +1,9 @@
+The traditional view is that the interest-rates glide path should aim at 4 percent: 2 percent real interest plus 2 percent inflation. But 4 percent is not written in stone, and many people inside and outside the Fed are rethinking this conventional wisdom. One big subject of debate right now is whether the long-term “natural” real rate of interest has declined below 2 percent. Over the long run, the Fed cannot control the real rate of interest; that comes from how much people want to save and what opportunities there are for investment, i.e. marginal product of capital. Here’s why the real interest rate is so important: It’s basically the North Star of the Federal Reserve’s monetary policy.
+
+Higher real interest rates can increase borrowing costs. This can cause people to curb spending and borrowing. This, in turn, can slow economic activity. Recently despite the tangible rise in interest rates, the real interest rate has remained close to zero or negative for years. If the Fed continues raising its key rate too quickly, it may become “restrictive” and make it difficult to borrow or not compelling enough to invest in riskier assets. The Fed wants to hit a point where the real interest rate isn’t influencing economic growth or investor behavior one way or the other. If we can hit a neutral state, the economy will continue to grow at its historical average while inflation will remain under control.
+
+In the past, a neutral state meant real interest rates of about 3 to 6 percent. Currently real interest rate is still hovering around 0. In the months and years to come, the Fed will essentially be feeling its way through a dark room as it attempts to find a yet-to-be-determined sweet spot for rates. While we continue the drift toward neutrality, it’s good bet the real interest rate will remain a central focus of the Fed, as well as the financial press.
+
 Question to ask myself: If inflation remains high does that mean interest rates will have to continue to rise? Let’s say 7% inflation becomes the norm for the next few years. Would banks continue to lend money for less than inflation? So doesn’t that mean interest rates would have to rise? Ultimately, who would be lending money at less than the inflation rate?
 (Well people will continue to lend, but at a much lower pace.. Let’s say I have a dollar. That dollar will always have a nominal interest rate of 0%. With inflation being 7%, it will have a real interest rate of -7%. If I loan out that dollar, even if it’s for 0.5%, I would be better off, because then my real return will be -6.5% instead of -7%. It’s not great, but it’s still better than the inflation rate. Plenty of yields are less than the inflation rate. If inflation is persistently above 2% the central bank will eventually raise rates to push it down. If we see rising interest rates that will most likely be why.)
 
@@ -15,7 +21,7 @@ Problem Statement:
 
 - Question: To understand the effect on the U.S economy in different parts of history where inflation was less than or equal to 2% (Looking at different times and events) since that is the current target for the federal reserves. So looking into the past data help us look at the overall future health/strength of the U.S. economy and where it is heading towards? What economic indicators are we looking for to help predict market trends? GDP, unemployment, inflation, real interest, and consumption. (Maybe private investment?) This analysis will help other investors have a better idea/understanding of where the economy is heading, and we need to know something about the government’s role in influencing its directions by looking into the real interest rate.
 
-- Explanation to why picking each data: GDP is used to measure the size of the economy. When GDP is growing rapidly, then that usually means that more jobs are being created, etc. When GDP is shrinking, or growing slowly, then that’s a leading indicator that parts of the economy are in trouble. Unemployment rate is a measure of workplace participation “how many people are looking for work”. 
+- Explanation to why picking each data: GDP is used to measure the size of the economy. When GDP is growing rapidly, then that usually means that more jobs are being created, etc. When GDP is shrinking, or growing slowly, then that’s a leading indicator that parts of the economy are in trouble. Unemployment rate is a measure of workplace participation “how many people are looking for work”. The Taylor rule is a monetary policy guideline that suggests a positive relationship between inflation and nominal interest rates. According to the Taylor rule, as inflation increases above the target level, central banks may respond by raising nominal interest rates to control inflationary pressures. This suggests a positive relationship between inflation and interest rates, as higher inflation leads to higher nominal interest rates. 
 
 Understanding the Dataset (Real Interest Rate = Nominal Interest Rate - Inflation Rate):
 - Real Interest Rate vs. Nominal Interest Rate and effect on inflation: An increase in nominal interest rates only decrease inflation if the increase in nominal interest rates was caused by contraction in the money supply (this is the liquidity effect).
@@ -30,9 +36,12 @@ Understanding the Dataset (Real Interest Rate = Nominal Interest Rate - Inflatio
 - At the start of COVID-19 pandemic in 2020, though, rates were lowered to close to zero to help aid in economic recovery. But as inflation started to creep up in 2021, the Federal reserve gas lagged in its response with rate increases.
 - If the inflation rate exceeds the nominal interest rate, then the real interest rate becomes negative. Negative real interest rates are bad for savers because (in terms of purchasing power) they do not actually earn interest from their deposits when adjusting for inflation. It is also bad for banks because inflation reduces the real return of a loan.
 - Lower real interest rates results in businesses and households buying more because they have an easier time borrowing money when real interest rates are lower. Since people buy more, economic output grows.
-
+- 
 
 What I need to do with the Data:
+- Statsmodel: realgdp, re
 - Percentage Change of Economic Indicators across years and/or recessions?
 - What other data am I comparing to?
 - Interest Rates: Nominal vs Real Interest Rate?
+- Fisher Effect v.s. Taylor Rule
+
