@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**"Will the Federal Reserve raise interest rates again this year?"** is the question I have been asked more than I can remember from both friends and clients year-round. 2022-2023 has been an absurd period in the world of finance as the Fed went from holding the federal funds rate at around zero as recently as the first quarter of 2022 to increasing the federal fund rate a total of 11 times; making it the highest level in over 22 years.
+**"Will the Federal Reserve raise interest rates again this year?"** is the question I have been asked more than I can remember from both friends and clients year-round. 2022-2023 has been an absurd period in the world of finance as the Fed went from holding the federal funds rate at near zero as recently as the first quarter of 2022 to increasing the federal fund rate a total of 11 times; making it the highest level in over 22 years.
 
 Federal Reserve officials in recent months emphasized the importance of how their decisions will be increasingly data-dependent and noted the significance of analyzing incoming data to determine monetary policy changes moving forward. So I wanted to explore deeper into the past U.S. Macroeconomic data to help better understand the present and prepare for the future amid economic uncertainty. 
 
@@ -50,7 +50,7 @@ The dataset has been uploaded [here](https://github.com/tylerchg/Project_1). Ple
 ## Table of Contents
 
 :pushpin: [Assessing Data](#assessing-data)
-:pushpin:
+:pushpin: [Cleaning Column Labels](#cleaning-column-labels)
 :pushpin:
 :pushpin:
 
@@ -58,9 +58,41 @@ The dataset has been uploaded [here](https://github.com/tylerchg/Project_1). Ple
 
 ## Assessing Data
 
-We import the required libraries and load the statsmodels dataset.
+Importing the required libraries and loading the statsmodels dataset.
 - Pandas - Data manipulation
 - Numpy - Data arrays
 - Matplotlib & Seaborn - Data visualisation
 
-(To be continued)
+'''python
+# Importing libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Loading csv file
+data = pd.read_csv('macrodata-2.csv')
+data.info()
+'''
+
+We can look at the dataset using 'data.head()'
+
+'''python
+# Preview of statsmodels dataset
+data.head()
+'''
+
+We will be running a few queries to assess our dataset:
+- How many samples (rows/observations) and columns are in our dataset?
+- Are there any duplicates and if so, how many?
+- What are the data types?
+- Is there any missing values and so, how many?
+- What are the unique values and what is the count?
+
+
+## Cleaning Column Labels
+
+Before transforming the data, we will create a time based index of periods consisting of the year and quarter and change '1959Q1' to a date '1959-01-01'.
+
+
+(To be continued).
