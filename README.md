@@ -22,7 +22,7 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 For this project, we are analyzing the [U.S. Macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/nicolasgonzalezmunoz/world-bank-world-development-indicators) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
 
-The dataset has been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information of the datasets:
+The datasets has been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information:
 
 **Statsmodels**
 - Year - 1959Q1-2009Q3 
@@ -50,20 +50,25 @@ The dataset has been uploaded [here](https://github.com/tylerchg/Project_1). Ple
 ## Table of Contents
 
 :pushpin: [Assessing Data](#assessing-data)
+
 :pushpin: [Cleaning Column Labels](#cleaning-column-labels)
-:pushpin:
-:pushpin:
+
+:pushpin: [Filtering and Exporting](#filtering_and_exporting)
+
+:pushpin: [Inspecting Data Types](#inspecting_data_type)
+
+:pushpin: [Exploring with Visuals](#exploring_with_visuals)
 
 ***
 
 ## Assessing Data
 
-Importing the required libraries and loading the statsmodels dataset.
+Importing the required libraries and loading the statsmodels dataset:
 - Pandas - Data manipulation
 - Numpy - Data arrays
 - Matplotlib & Seaborn - Data visualisation
 
-'''python
+```python
 # Importing libraries
 import pandas as pd
 import numpy as np
@@ -73,26 +78,45 @@ import seaborn as sns
 # Loading csv file
 data = pd.read_csv('macrodata-2.csv')
 data.info()
-'''
+```
 
-We can look at the dataset using 'data.head()'
-
-'''python
-# Preview of statsmodels dataset
-data.head()
-'''
-
-We will be running a few queries to assess our dataset:
+Running a few queries to assess the dataset:
 - How many samples (rows/observations) and columns are in our dataset?
 - Are there any duplicates and if so, how many?
 - What are the data types?
 - Is there any missing values and so, how many?
 - What are the unique values and what is the count?
 
-
 ## Cleaning Column Labels
 
-Before transforming the data, we will create a time based index of periods consisting of the year and quarter and change '1959Q1' to a date '1959-01-01'.
+Creating a time based index of periods consisting of the year and quarter and changing '1959Q1' to a date '1959-01-01'.
 
+```python
+periods = pd.PeriodIndex(year = data.year, quarter = data.quarter, name = 'date')
+periods.to_timestamp('D', 'start')
+```
 
-(To be continued).
+Transforming the dataset:
+- Replacing current index.
+- Specifying a new index.
+- Dropping extraneous columns.
+- Conforming to the column index specified.
+- Stacking to create a series (if needed).
+
+## Filtering and Exporting
+
+(Explanation)
+
+Filtering the dataset:
+- Periods where inflation was less than or equal to 2%.
+- Sorting and filtering data by unemployment rate to analyze any correlation with inflation.
+- Exporting the filtered data into a new csv file
+
+## Inspecting Data Type
+
+(Explanation)
+
+## Exploring with Visuals
+
+(Explanation).
+
