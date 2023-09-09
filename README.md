@@ -51,13 +51,13 @@ The datasets has been uploaded [here](https://github.com/tylerchg/Project_1). Pl
 
 :pushpin: [Assessing Data](#assessing-data)
 
-:pushpin: [Cleaning Column Labels](#cleaning-column-labels)
+:pushpin: [Data Wrangling](#data_wranglings)
 
-:pushpin: [Filtering and Exporting](#filtering_and_exporting)
+:pushpin: [Data Analysis](#data_analysis)
 
-:pushpin: [Inspecting Data Types](#inspecting_data_type)
+:pushpin: [Data Visualization](#data_visualization)
 
-:pushpin: [Exploring with Visuals](#exploring_with_visuals)
+:pushpin: [Conclusion](#conclusion)
 
 ***
 
@@ -81,13 +81,13 @@ data.info()
 ```
 
 Running a few queries to assess the dataset:
-- How many samples (rows/observations) and columns are in our dataset?
-- Are there any duplicates and if so, how many?
+- How many samples (rows/observations) and columns are in the dataset?
+- Are there any duplicates?
 - What are the data types?
-- Is there any missing values and so, how many?
+- Is there any missing values?
 - What are the unique values and what is the count?
 
-## Cleaning Column Labels
+## Data Wrangling
 
 Creating a time based index of periods consisting of the year and quarter and changing '1959Q1' to a date '1959-01-01'.
 
@@ -103,20 +103,20 @@ Transforming the dataset:
 - Conforming to the column index specified.
 - Stacking to create a series (if needed).
 
-## Filtering and Exporting
+## Data Analysis
 
-(Explanation)
+(Explanation & Questions)
 
 Filtering the dataset:
 - Periods where inflation was less than or equal to 2%.
 - Sorting and filtering data by unemployment rate to analyze any correlation with inflation.
 - Exporting the filtered data into a new csv file
 
-## Inspecting Data Type
+## Data Visualization
 
 (Explanation)
 
-## Exploring with Visuals
+## Conclusion
 
-(Explanation).
+(Explanation)
 
