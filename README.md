@@ -16,7 +16,7 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 **Why I created this project?**
 - Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market "experts" even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
-- However, that was not the case and inflation started to creep up even higher. People now believe interest rates will remain high until 2024 due to inflation, but have not explained the kind of consequences that may have on the economy. So I wanted to share my research and personal opinion with everyone to use as a resource. :books:
+- However, that has not the case and inflation started to creep up even higher. People now believe interest rates will remain high until 2024 due to inflation, but have not explained the kind of consequences that may have on the economy. So I wanted to share my research and personal opinion with everyone to use as a resource. :books:
 
 ## U.S. Macroeconomic Data
 
@@ -25,25 +25,25 @@ For this project, we are analyzing the [U.S. Macroeconomic data](https://www.sta
 The datasets has been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information:
 
 **Statsmodels**
-- Year - 1959Q1-2009Q3 
-- Quarter - 1-4
-- Realgdp - Real gross domestic product (Bil. of chained 2005 US$, seasonally adjusted annual rate)
-- Realcons - Real personal consumption expenditures (Bil. of chained 2005 US$, seasonally adjusted annual rate)
-- Realinv - Real gross private domestic investment (Bil. of chained 2005 US$, seasonally adjusted annual rate)
-- Cpi - End of the quarter consumer price index for all urban consumers: all items (1982-84 = 100, seasonally adjusted)
-- Unemp - Seasonally adjusted unemployment rate (%)
-- Infl - Inflation rate (ln(cpi_{t}/cpi_{t-1}) * 400)
-- Realint - Real interest rate (tbilrate - infl)
+- `Year` - 1959Q1-2009Q3 
+- `Quarter` - 1-4
+- `Realgdp` - Real gross domestic product (Bil. of chained 2005 US$, seasonally adjusted annual rate)
+- `Realcons` - Real personal consumption expenditures (Bil. of chained 2005 US$, seasonally adjusted annual rate)
+- `Realinv` - Real gross private domestic investment (Bil. of chained 2005 US$, seasonally adjusted annual rate)
+- `Cpi` - End of the quarter consumer price index for all urban consumers: all items (1982-84 = 100, seasonally adjusted)
+- `Unemp` - Seasonally adjusted unemployment rate (%)
+- `Infl` - Inflation rate (ln(cpi_{t}/cpi_{t-1}) * 400)
+- `Realint` - Real interest rate (tbilrate - infl)
 
 **The World Bank Group**
-- Country - The country or geographic region (United States)
-- Date - Date of the measurement (1960-2022)
-- Inflation_annual% - Inflation, consumer prices, as annual %
-- Real_interest_rate - Real interest rate (%)
-- Risk_premium_on_lending - Risk premium on lending (lending rate minus treasury bill rate, %)
-- Doing_business - Ease of doing business score (0 = lowest performance to 100 = best performance)
-- Gdp_current_us - GDP (current US$)
-- Gini_index - Gini index
+- `Country` - The country or geographic region (United States)
+- `Date` - Date of the measurement (1960-2022)
+- `Inflation_annual%` - Inflation, consumer prices, as annual %
+- `Real_interest_rate` - Real interest rate (%)
+- `Risk_premium_on_lending` - Risk premium on lending (lending rate minus treasury bill rate, %)
+- `Doing_business` - Ease of doing business score (0 = lowest performance to 100 = best performance)
+- `Gdp_current_us` - GDP (current US$)
+- `Gini_index` - Gini index
 
 ***
 
@@ -63,9 +63,9 @@ The datasets has been uploaded [here](https://github.com/tylerchg/Project_1). Pl
 
 ## Assessing Data
 
-Importing the required libraries and loading the statsmodels dataset:
+Required libraries and datasets for this project:
 - Pandas - Data manipulation
-- Numpy - Data arrays
+- NumPy - Data arrays
 - Matplotlib & Seaborn - Data visualisation
 
 ```python
@@ -75,29 +75,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Loading csv file
+# Loading csv file (Statsmodels)
 data = pd.read_csv('macrodata-2.csv')
-data.info()
+
+# Loading csv file (The World Bank Group)
+data2 = pd.read_csv('world_bank_development_indicators.csv')
 ```
 
-Running a few queries to assess the dataset:
-- How many samples (rows/observations) and columns are in the dataset?
+Preparing datasets:
+- How many samples (rows/observations) and columns are in both datasets?
 - Are there any duplicates?
 - What are the data types?
-- Is there any missing values?
-- What are the unique values and what is the count?
+- Are there any missing values?
+- What are the unique values and the count?
 
 ## Data Wrangling
 
-Creating a time based index of periods consisting of the year and quarter and changing '1959Q1' to a date '1959-01-01'.
-
-```python
-periods = pd.PeriodIndex(year = data.year, quarter = data.quarter, name = 'date')
-periods.to_timestamp('D', 'start')
-```
-
-Transforming the dataset:
-- Replacing current index.
+Cleaning datasets:
+- Creating a time based index.
+- Replacing an existing index.
 - Specifying a new index.
 - Dropping extraneous columns.
 - Conforming to the column index specified.
@@ -105,12 +101,13 @@ Transforming the dataset:
 
 ## Data Analysis
 
-(Explanation & Questions)
-
-Filtering the dataset:
+Filtering and exploring datasets:
+- Descriptive statistical analysis.
+- Exploring leading economic indicators to analyze the overall strength of the U.S. economy.
+- Analyzing the importance of real interest rates during past recessions.
 - Periods where inflation was less than or equal to 2%.
-- Sorting and filtering data by unemployment rate to analyze any correlation with inflation.
-- Exporting the filtered data into a new csv file
+- Sorting by unemployment rate to analyze any correlation with inflation.
+- Exporting filtered data into a new csv file.
 
 ## Data Visualization
 
@@ -119,4 +116,6 @@ Filtering the dataset:
 ## Conclusion
 
 (Explanation)
+
+## Reference
 
