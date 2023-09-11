@@ -10,9 +10,9 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 - What were the leading economic indicators like during past recessions?
 - What were the unemployment and real interest rates like when inflation rates were less than or equal to 2%?
-- When did the U.S. economy have the highest unemployment when inflation rates were less than or equal to 2%?
-- When did the U.S. economy have the highest inflation rates?
-- How does monetary policy affect real interest rates and why is it important to the Federal Reserve?
+- When did the U.S. economy (in years) have the highest unemployment when inflation rates were less than or equal to 2%?
+- When did the U.S. economy (in years) have the highest inflation rates?
+- How does real interest rates affect monetary policy changes and why is it important to the Federal Reserve?
 
 **Why I created this project?**
 - Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market experts even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
@@ -104,11 +104,11 @@ Cleaning datasets:
 Filtering and exploring datasets:
 - Descriptive statistical analysis.
 - Exploring leading economic indicators to analyze the overall strength of the U.S. economy.
-- Analyzing the importance of real interest rates during past recessions.
-- Periods where inflation was less than or equal to 2%.
+- Periods where inflation rates were less than or equal to 2%.
 - Sorting by unemployment rate to analyze any correlation with inflation.
+- Analyzing the importance of real interest rates during past recessions.
 - Exporting filtered data into a new csv file.
-- (Other questions to answer)
+- (Other Questions?)
 
 ## Data Visualization
 
