@@ -6,6 +6,22 @@
 
 Federal Reserve officials in recent months emphasized the importance of how their decisions will be increasingly data-dependent and noted the significance of analyzing incoming data to determine monetary policy changes moving forward. So I wanted to explore deeper into the past U.S. Macroeconomic data to help better understand the present and prepare for the future amid economic uncertainty. 
 
+***
+
+## Table of Contents
+
+:pushpin: [Assessing Data](#assessing-data)
+
+:pushpin: [Data Wrangling](#data_wranglings)
+
+:pushpin: [Data Analysis and Visualization](#data_analysis_and_visualization)
+
+:pushpin: [Conclusion](#conclusion)
+
+:pushpin: [Reference](#reference)
+
+***
+
 ## Questions I wanted to answer:
 
 - What were the leading economic indicators like during past recessions?
@@ -20,9 +36,9 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 ## U.S. Macroeconomic Data
 
-For this project, we are analyzing the [U.S. Macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/nicolasgonzalezmunoz/world-bank-world-development-indicators) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
+For this project, I will be analyzing the [U.S. Macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/nicolasgonzalezmunoz/world-bank-world-development-indicators) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
 
-The datasets has been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information:
+The datasets have been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information:
 
 **Statsmodels**
 - `Year` - 1959Q1-2009Q3 
@@ -44,22 +60,6 @@ The datasets has been uploaded [here](https://github.com/tylerchg/Project_1). Pl
 - `Doing_business` - Ease of doing business score (0 = lowest performance to 100 = best performance)
 - `Gdp_current_us` - GDP (current US$)
 - `Gini_index` - Gini index
-
-***
-
-## Table of Contents
-
-:pushpin: [Assessing Data](#assessing-data)
-
-:pushpin: [Data Wrangling](#data_wranglings)
-
-:pushpin: [Data Analysis](#data_analysis)
-
-:pushpin: [Data Visualization](#data_visualization)
-
-:pushpin: [Conclusion](#conclusion)
-
-***
 
 ## Assessing Data
 
@@ -99,7 +99,7 @@ Cleaning datasets:
 - Conforming to the column index specified.
 - Stacking to create a series (if needed).
 
-## Data Analysis
+## Data Analysis and Visualization
 
 Filtering and exploring datasets:
 - Descriptive statistical analysis.
@@ -108,11 +108,6 @@ Filtering and exploring datasets:
 - Sorting by unemployment rate to analyze any correlation with inflation.
 - Analyzing the importance of real interest rates during past recessions.
 - Exporting filtered data into a new csv file.
-- (Other Questions?)
-
-## Data Visualization
-
-(Explanation)
 
 ## Conclusion
 
@@ -120,3 +115,4 @@ Filtering and exploring datasets:
 
 ## Reference
 
+()
