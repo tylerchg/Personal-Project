@@ -2,20 +2,20 @@
 
 ## Introduction
 
-**"Will the Federal Reserve raise interest rates again this year?"** is the question I have been asked more than I can remember from both friends and clients year-round. 2022-2023 has been an absurd period in the world of finance as the Fed went from holding the federal funds rate at near zero as recently as the first quarter of 2022 to increasing the federal fund rate a total of 11 times; making it the highest level in over 22 years.
+**"Will the Federal Reserve raise interest rates again this year?"** is the question I have been asked more than I can remember from both friends and clients year-round. 2022-2023 has been an absurd period in the world of finance as the Fed went from holding the federal funds rate at near zero as recently as the first quarter of 2022 to increasing the rate a total of 11 times; making it the highest level in over 22 years.
 
 Federal Reserve officials in recent months emphasized the importance of how their decisions will be increasingly data-dependent and noted the significance of analyzing incoming data to determine monetary policy changes moving forward. So I wanted to explore deeper into the past U.S. Macroeconomic data to help better understand the present and prepare for the future amid economic uncertainty. 
 
 ## Questions I wanted to answer:
 
-- What are the leading economic indicators to analyze the overall strength of the U.S. economy? What were they like during the past recessions?
-- What kind of consequences would higher interest rates have on the U.S. economy and what would that mean for investors?
-- Is the U.S. economy heading into a recession or will there be a "soft landing"?
-- Why is the Federal Reserve targeting an inflation rate of 2%?
-- Will the Federal Reserve raise interest rates of another 25 basis points? 
+- What were the leading economic indicators like during past recessions?
+- What were the unemployment and real interest rates like when inflation rates were less than or equal to 2%?
+- When did the U.S. economy have the highest unemployment when inflation rates were less than or equal to 2%?
+- When did the U.S. economy have the highest inflation rates?
+- How does monetary policy affect real interest rates and why is it important to the Federal Reserve?
 
 **Why I created this project?**
-- Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market "experts" even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
+- Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market experts even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
 - However, that has not the case and inflation started to creep up even higher. People now believe interest rates will remain high until 2024 due to inflation, but have not explained the kind of consequences that may have on the economy. So I wanted to share my research and personal opinion with everyone to use as a resource. :books:
 
 ## U.S. Macroeconomic Data
@@ -108,6 +108,7 @@ Filtering and exploring datasets:
 - Periods where inflation was less than or equal to 2%.
 - Sorting by unemployment rate to analyze any correlation with inflation.
 - Exporting filtered data into a new csv file.
+- (Other questions to answer)
 
 ## Data Visualization
 
