@@ -4,7 +4,7 @@
 
 **"Will the Federal Reserve raise interest rates again this year?"** is the question I have been asked more than I can remember from both friends and clients year-round. 2022-2023 has been an absurd period in the world of finance as the Fed went from holding the federal funds rate at near zero as recently as the first quarter of 2022 to increasing the rate a total of 11 times; making it the highest level in over 22 years.
 
-Federal Reserve officials in recent months emphasized the importance of how their decisions will be increasingly data-dependent and noted the significance of analyzing incoming data to determine monetary policy changes moving forward. So I wanted to explore deeper into the past U.S. Macroeconomic data to help better understand the present and prepare for the future amid economic uncertainty. 
+Federal Reserve officials in recent months emphasized the importance of how their decisions will be increasingly data-dependent and noted the significance of analyzing incoming data to determine monetary policy changes moving forward. So I wanted to explore deeper into the past U.S. macroeconomic data to help better understand the present and prepare for the future amid economic uncertainty. 
 
 ***
 
@@ -36,7 +36,7 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 ## U.S. Macroeconomic Data
 
-For this project, I will be analyzing the [U.S. Macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/nicolasgonzalezmunoz/world-bank-world-development-indicators) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
+For this project, I will be analyzing the [U.S. macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/nicolasgonzalezmunoz/world-bank-world-development-indicators) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
 
 The datasets have been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information:
 
@@ -76,7 +76,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Loading csv file (Statsmodels)
-data = pd.read_csv('macrodata-2.csv')
+data = pd.read_csv('macrodata.csv')
 
 # Loading csv file (The World Bank Group)
 data2 = pd.read_csv('world_bank_development_indicators.csv')
@@ -115,4 +115,3 @@ Filtering and exploring datasets:
 
 ## Reference
 
-()
