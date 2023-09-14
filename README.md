@@ -24,7 +24,7 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 ## Questions I wanted to answer:
 
-- What were the leading economic indicators like during past recessions?
+- Does lower real interest rates result in higher unemployment and inflation rates? What were the leading economic indicators like during past recessions?
 - What were the unemployment and real interest rates like when inflation rates were less than or equal to 2%?
 - When did the U.S. economy (in years) have the highest unemployment when inflation rates were less than or equal to 2%?
 - When did the U.S. economy (in years) have the highest inflation rates?
