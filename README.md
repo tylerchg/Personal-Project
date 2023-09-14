@@ -36,7 +36,7 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 ## U.S. Macroeconomic Data
 
-For this project, I will be analyzing the [U.S. macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/nicolasgonzalezmunoz/world-bank-world-development-indicators) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
+For this project, I will be analyzing the [U.S. macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/prasertk/inflation-interest-and-unemployment-rate) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
 
 The datasets have been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information:
 
@@ -53,13 +53,14 @@ The datasets have been uploaded [here](https://github.com/tylerchg/Project_1). P
 
 **The World Bank Group**
 - `Country` - The country or geographic region (United States)
-- `Date` - Date of the measurement (1960-2022)
-- `Inflation_annual%` - Inflation, consumer prices, as annual %
-- `Real_interest_rate` - Real interest rate (%)
-- `Risk_premium_on_lending` - Risk premium on lending (lending rate minus treasury bill rate, %)
-- `Doing_business` - Ease of doing business score (0 = lowest performance to 100 = best performance)
-- `Gdp_current_us` - GDP (current US$)
-- `Gini_index` - Gini index
+- `Year` - Date of the measurement (1970-2021)
+- `Inflation, consumer prices (annual %)` - Inflation, consumer prices, as annual %
+- `Inflation, GDP deflator (annual %)` - Inflation, GDP deflator, as annual %
+- `Real interest rate (%)` - Real interest rate
+- `Deposit interest rate (%)` - Interest earned on deposit
+- `Unemployment, total (% of total labor force) (national estimate)` - Unemployment % of total labor force
+- `Unemployment, total (% of total labor force) (modeled ILO estimate)` - Unemployment % of total labor force
+
 
 ## Assessing Data
 
@@ -79,7 +80,7 @@ import seaborn as sns
 data = pd.read_csv('macrodata.csv')
 
 # Loading csv file (The World Bank Group)
-data2 = pd.read_csv('world_bank_development_indicators.csv')
+data2 = pd.read_csv('inflation_interest_unemployment.csv')
 ```
 
 Preparing datasets:
@@ -107,6 +108,9 @@ Filtering and exploring datasets:
 - Periods where inflation rates were less than or equal to 2%.
 - Sorting by unemployment rate to analyze any correlation with inflation.
 - Analyzing the importance of real interest rates during past recessions.
+- Bivariate and multivariate plots.
+- Pair-wise plots for multiple numeric data variables.
+- Fitting basic statistical models.
 - Exporting filtered data into a new csv file.
 
 ## Conclusion
