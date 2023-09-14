@@ -57,7 +57,6 @@ The datasets have been uploaded [here](https://github.com/tylerchg/Project_1). P
 - `Inflation, consumer prices (annual %)` - Inflation, consumer prices, as annual %
 - `Inflation, GDP deflator (annual %)` - Inflation, GDP deflator, as annual %
 - `Real interest rate (%)` - Real interest rate
-- `Deposit interest rate (%)` - Interest earned on deposit
 - `Unemployment, total (% of total labor force) (national estimate)` - Unemployment % of total labor force
 - `Unemployment, total (% of total labor force) (modeled ILO estimate)` - Unemployment % of total labor force
 
@@ -119,3 +118,5 @@ Filtering and exploring datasets:
 
 ## Reference
 
+
+(Edits?)
