@@ -28,7 +28,7 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 - What were the unemployment and real interest rates like when inflation rates were less than or equal to 2%?
 - When did the U.S. economy (in years) have the highest unemployment when inflation rates were less than or equal to 2%?
 - When did the U.S. economy (in years) have the highest inflation rates?
-- How does real interest rates affect monetary policy changes and why is it important to the Federal Reserve? What were the leading economic indicators like during past recessions?
+- What were the real interest rates like during past recessions?
 
 **Why I created this project?**
 - Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market experts even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
