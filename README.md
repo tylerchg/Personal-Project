@@ -22,7 +22,7 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 ***
 
-## Questions I wanted to answer:
+## Questions
 
 - Does higher real interest rates result in higher unemployment rates?
 - What were the unemployment and real interest rates like when inflation rates were less than or equal to 2%?
@@ -33,6 +33,26 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 **Why I created this project?**
 - Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market experts even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
 - However, that has not the case and inflation started to creep up even higher. People now believe interest rates will remain high until 2024 due to inflation, but have not explained the kind of consequences that may have on the economy. So I wanted to share my research and personal opinion with everyone to use as a resource. :books:
+
+## Required Libraries and Datasets
+
+- Pandas - Data manipulation
+- NumPy - Data arrays
+- Matplotlib & Seaborn - Data visualisation
+
+```python
+# Importing libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Loading csv file (Statsmodels)
+data = pd.read_csv('macrodata.csv')
+
+# Loading csv file (The World Bank Group)
+data2 = pd.read_csv('inflation_interest_unemployment.csv')
+```
 
 ## U.S. Macroeconomic Data
 
@@ -62,25 +82,6 @@ The datasets have been uploaded [here](https://github.com/tylerchg/Project_1). P
 
 
 ## Assessing Data
-
-Required libraries and datasets for this project:
-- Pandas - Data manipulation
-- NumPy - Data arrays
-- Matplotlib & Seaborn - Data visualisation
-
-```python
-# Importing libraries
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Loading csv file (Statsmodels)
-data = pd.read_csv('macrodata.csv')
-
-# Loading csv file (The World Bank Group)
-data2 = pd.read_csv('inflation_interest_unemployment.csv')
-```
 
 Preparing datasets:
 - How many samples (rows/observations) and columns are in both datasets?
@@ -119,3 +120,4 @@ Filtering and exploring datasets:
 ## Reference
 
 (Explanation)
+
