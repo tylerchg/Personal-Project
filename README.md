@@ -58,7 +58,7 @@ data2 = pd.read_csv('inflation_interest_unemployment.csv')
 
 For this project, I will be analyzing the [U.S. macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/prasertk/inflation-interest-and-unemployment-rate) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
 
-The datasets have been uploaded [here](https://github.com/tylerchg/Project_1). Please see below the summarized information:
+The datasets have been uploaded [here](https://github.com/tylerchg/Personal-Project/tree/main/Project%201). Please see below the summarized information:
 
 **Statsmodels**
 - `Year` - 1959Q1-2009Q3 
@@ -120,4 +120,3 @@ Filtering and exploring datasets:
 ## Reference
 
 (Explanation)
-
