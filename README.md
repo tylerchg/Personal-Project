@@ -1,4 +1,4 @@
-# Why the Federal Reserve May Continue to Raise Interest Rates in 2023 :chart_with_downwards_trend:
+# Why the Federal Reserve May Continue to Raise Interest Rates :chart_with_downwards_trend:
 
 ## Introduction
 
@@ -16,8 +16,6 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 
 :pushpin: [Data Analysis and Visualization](#data_analysis_and_visualization)
 
-:pushpin: [Conclusion](#conclusion)
-
 :pushpin: [Reference](#reference)
 
 ***
@@ -28,7 +26,6 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 - What were the unemployment and real interest rates like when inflation rates were less than or equal to 2%?
 - When did the U.S. economy (in years) have the highest unemployment when inflation rates were less than or equal to 2%?
 - When did the U.S. economy (in years) have the highest inflation rates?
-- What were the real interest rates like during past recessions?
 
 **Why I created this project?**
 - Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market experts even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
@@ -113,10 +110,17 @@ Filtering and exploring datasets:
 - Fitting basic statistical models.
 - Exporting filtered data into a new csv file.
 
-## Conclusion
-
-(Explanation)
-
 ## Reference
 
-(Explanation)
+- [Statsmodels](https://www.statsmodels.org/stable/datasets/generated/macrodata.html)
+- [Kaggle](https://www.kaggle.com/datasets/prasertk/inflation-interest-and-unemployment-rate)
+- [The World Bank](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets)
+- [Investopedia: Leading Indicators](https://www.investopedia.com/terms/l/leadingindicator.asp)
+- [Investopedia: Top 10 U.S. Economic Indicators](https://www.investopedia.com/articles/personal-finance/020215/top-ten-us-economic-indicators.asp)
+- [Investopedia: US Recessions Throughout History](https://www.investopedia.com/articles/economics/08/past-recessions.asp)
+- [Investopedia: Taylor Rule Definition](https://www.investopedia.com/terms/t/taylorsrule.asp)
+- [Northwestern Mutual: What's the Real Interest Rate and Why Does It Matter?](https://www.northwesternmutual.com/life-and-money/whats-the-real-interest-rate-and-why-does-it-matter/)
+- [University of Chicago (Booth): What Target Should the Fed Be Shooting At?](https://www.chicagobooth.edu/review/what-target-should-fed-be-shooting#:~:text=The%20traditional%20view%20is%20that,are%20rethinking%20this%20conventional%20wisdom.)
+- [Board of Governors of the Federal Reserve System](https://www.federalreserve.gov/faqs/economy_14400.htm)
+- [TheStreet: What Is a Real Interest Rate?](https://www.thestreet.com/dictionary/r/real-interest-rate)
+- [Investopedia: US Recessions Throughout History](https://www.investopedia.com/articles/economics/08/past-recessions.asp)
