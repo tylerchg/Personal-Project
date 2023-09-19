@@ -28,8 +28,9 @@ Federal Reserve officials in recent months emphasized the importance of how thei
 - When did the U.S. economy (in years) have the highest inflation rates?
 
 **Why I created this project?**
+
 - Since beginning of the year, I realized that most people were very optimistic about the economy and said the Fed would no longer have the reason to raise nominal interest rates. Market experts even stated that the Fed would in fact start cutting interest rates towards the end of 2023.
-- However, that has not the case and inflation started to creep up even higher. People now believe interest rates will remain high until 2024 due to inflation, but have not explained the kind of consequences that may have on the economy. So I wanted to share my research and personal opinion with everyone to use as a resource. :books:
+- However, that has not the case and inflation started to creep up even higher. People now believe interest rates will remain high until 2024 due to inflation, but have not explained the kind of consequences that may have on the economy. So I wanted to share my research and personal opinion with everyone to use as a resource.
 
 ## Required Libraries and Datasets
 
@@ -55,7 +56,7 @@ data2 = pd.read_csv('inflation_interest_unemployment.csv')
 
 For this project, I will be analyzing the [U.S. macroeconomic data](https://www.statsmodels.org/stable/datasets/generated/macrodata.html) provided on statsmodels and [kaggle](https://www.kaggle.com/datasets/prasertk/inflation-interest-and-unemployment-rate) using data that's been collected from [The World Bank Group](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets).
 
-The datasets have been uploaded [here](https://github.com/tylerchg/Personal-Project/tree/main/Project%201). Please see below the summarized information:
+The project and datasets have been uploaded [here](https://github.com/tylerchg/Personal-Project/tree/main/Project%201). Please see below the summarized information:
 
 **Statsmodels**
 - `Year` - 1959Q1-2009Q3 
@@ -110,7 +111,7 @@ Filtering and exploring datasets:
 - Fitting basic statistical models.
 - Exporting filtered data into a new csv file.
 
-## Reference
+## Reference :books:
 
 - [Statsmodels](https://www.statsmodels.org/stable/datasets/generated/macrodata.html)
 - [Kaggle](https://www.kaggle.com/datasets/prasertk/inflation-interest-and-unemployment-rate)
