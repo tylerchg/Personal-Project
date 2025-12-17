@@ -125,3 +125,10 @@ Filtering and exploring datasets:
 - [Board of Governors of the Federal Reserve System](https://www.federalreserve.gov/faqs/economy_14400.htm)
 - [TheStreet: What Is a Real Interest Rate?](https://www.thestreet.com/dictionary/r/real-interest-rate)
 - [Investopedia: US Recessions Throughout History](https://www.investopedia.com/articles/economics/08/past-recessions.asp)
+
+
+## License
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+## Disclaimer
+This repository is provided for educational and informational purposes only and does not constitute investment, legal, or financial advice.
